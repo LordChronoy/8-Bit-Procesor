@@ -358,11 +358,6 @@
     <visualElement>
       <elementName>Ground</elementName>
       <elementAttributes/>
-      <pos x="840" y="-20"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Ground</elementName>
-      <elementAttributes/>
       <pos x="1240" y="-20"/>
     </visualElement>
     <visualElement>
@@ -940,11 +935,21 @@
       <elementAttributes/>
       <pos x="880" y="320"/>
     </visualElement>
+    <visualElement>
+      <elementName>Driver</elementName>
+      <elementAttributes/>
+      <pos x="800" y="200"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes/>
+      <pos x="780" y="200"/>
+    </visualElement>
   </visualElements>
   <wires>
     <wire>
       <p1 x="160" y="160"/>
-      <p2 x="1000" y="160"/>
+      <p2 x="800" y="160"/>
     </wire>
     <wire>
       <p1 x="1400" y="160"/>
@@ -957,6 +962,10 @@
     <wire>
       <p1 x="2300" y="160"/>
       <p2 x="2800" y="160"/>
+    </wire>
+    <wire>
+      <p1 x="800" y="160"/>
+      <p2 x="1000" y="160"/>
     </wire>
     <wire>
       <p1 x="2800" y="160"/>
@@ -2199,6 +2208,10 @@
       <p2 x="1440" y="440"/>
     </wire>
     <wire>
+      <p1 x="800" y="160"/>
+      <p2 x="800" y="180"/>
+    </wire>
+    <wire>
       <p1 x="2340" y="0"/>
       <p2 x="2340" y="200"/>
     </wire>
@@ -2497,10 +2510,6 @@
     <wire>
       <p1 x="3140" y="560"/>
       <p2 x="3140" y="680"/>
-    </wire>
-    <wire>
-      <p1 x="840" y="-20"/>
-      <p2 x="840" y="0"/>
     </wire>
     <wire>
       <p1 x="840" y="0"/>

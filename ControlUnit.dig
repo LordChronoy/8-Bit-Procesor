@@ -389,10 +389,10 @@
         </entry>
         <entry>
           <string>Output Splitting</string>
-          <string>8,16</string>
+          <string>16,8</string>
         </entry>
       </elementAttributes>
-      <pos x="-220" y="560"/>
+      <pos x="-240" y="560"/>
     </visualElement>
     <visualElement>
       <elementName>Multiplexer</elementName>
@@ -623,6 +623,10 @@
     <wire>
       <p1 x="300" y="1200"/>
       <p2 x="480" y="1200"/>
+    </wire>
+    <wire>
+      <p1 x="-240" y="560"/>
+      <p2 x="-220" y="560"/>
     </wire>
     <wire>
       <p1 x="-560" y="820"/>
