@@ -1676,7 +1676,7 @@
 
 0 - 0
 3 - Reg0 = Reg0 + Reg1
-8 JumpTo R1</string>
+8 JumpTo whats in Reg1 (global)</string>
         </entry>
       </elementAttributes>
       <pos x="-200" y="-3180"/>
@@ -1757,6 +1757,16 @@
         </entry>
       </elementAttributes>
       <pos x="1060" y="-2980"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PullDown</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>24</int>
+        </entry>
+      </elementAttributes>
+      <pos x="1240" y="-3020"/>
     </visualElement>
   </visualElements>
   <wires>
@@ -2378,6 +2388,10 @@
     </wire>
     <wire>
       <p1 x="780" y="-3040"/>
+      <p2 x="1240" y="-3040"/>
+    </wire>
+    <wire>
+      <p1 x="1240" y="-3040"/>
       <p2 x="1280" y="-3040"/>
     </wire>
     <wire>
@@ -2987,6 +3001,10 @@
     <wire>
       <p1 x="1240" y="-420"/>
       <p2 x="1240" y="340"/>
+    </wire>
+    <wire>
+      <p1 x="1240" y="-3040"/>
+      <p2 x="1240" y="-3020"/>
     </wire>
     <wire>
       <p1 x="220" y="-2080"/>
