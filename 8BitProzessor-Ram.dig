@@ -1676,7 +1676,8 @@
 
 0 - 0
 3 - Reg0 = Reg0 + Reg1
-8 JumpTo whats in Reg1 (global)</string>
+8 - JumpTo  Reg1 (global)
+10 - JumpTo Reg1 if Reg0 is Pos</string>
         </entry>
       </elementAttributes>
       <pos x="-200" y="-3180"/>
