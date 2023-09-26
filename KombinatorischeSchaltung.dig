@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <circuit>
-  <version>1</version>
+  <version>2</version>
   <attributes/>
   <visualElements>
     <visualElement>
@@ -976,6 +976,20 @@
       <elementName>Const</elementName>
       <elementAttributes/>
       <pos x="3080" y="620"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>18</int>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>8 JumpTo R1</string>
+        </entry>
+      </elementAttributes>
+      <pos x="140" y="620"/>
     </visualElement>
   </visualElements>
   <wires>

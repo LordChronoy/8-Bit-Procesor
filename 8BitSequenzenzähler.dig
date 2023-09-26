@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <circuit>
-  <version>1</version>
+  <version>2</version>
   <attributes/>
   <visualElements>
     <visualElement>
@@ -44,11 +44,6 @@
         </entry>
       </elementAttributes>
       <pos x="540" y="140"/>
-    </visualElement>
-    <visualElement>
-      <elementName>8-BitRegister.dig</elementName>
-      <elementAttributes/>
-      <pos x="960" y="40"/>
     </visualElement>
     <visualElement>
       <elementName>Const</elementName>
@@ -140,8 +135,13 @@
     </visualElement>
     <visualElement>
       <elementName>Const</elementName>
-      <elementAttributes/>
-      <pos x="960" y="80"/>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>2</int>
+        </entry>
+      </elementAttributes>
+      <pos x="960" y="20"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -247,6 +247,16 @@
       <elementAttributes/>
       <pos x="680" y="140"/>
     </visualElement>
+    <visualElement>
+      <elementName>RAMAsync</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>8</int>
+        </entry>
+      </elementAttributes>
+      <pos x="960" y="20"/>
+    </visualElement>
   </visualElements>
   <wires>
     <wire>
@@ -264,6 +274,10 @@
     <wire>
       <p1 x="340" y="40"/>
       <p2 x="960" y="40"/>
+    </wire>
+    <wire>
+      <p1 x="1020" y="40"/>
+      <p2 x="1040" y="40"/>
     </wire>
     <wire>
       <p1 x="900" y="-140"/>
@@ -310,7 +324,7 @@
       <p2 x="680" y="-120"/>
     </wire>
     <wire>
-      <p1 x="1020" y="60"/>
+      <p1 x="1040" y="60"/>
       <p2 x="1140" y="60"/>
     </wire>
     <wire>
@@ -356,6 +370,10 @@
     <wire>
       <p1 x="880" y="100"/>
       <p2 x="880" y="160"/>
+    </wire>
+    <wire>
+      <p1 x="1040" y="40"/>
+      <p2 x="1040" y="60"/>
     </wire>
     <wire>
       <p1 x="900" y="-140"/>
