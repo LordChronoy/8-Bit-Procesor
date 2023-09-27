@@ -1635,20 +1635,20 @@
       <elementName>Splitter</elementName>
       <elementAttributes>
         <entry>
-          <string>Input Splitting</string>
-          <string>1,1</string>
-        </entry>
-        <entry>
           <string>mirror</string>
           <boolean>true</boolean>
         </entry>
         <entry>
-          <string>Output Splitting</string>
-          <string>2</string>
-        </entry>
-        <entry>
           <string>rotation</string>
           <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>Input Splitting</string>
+          <string>1,1</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>2</string>
         </entry>
       </elementAttributes>
       <pos x="660" y="-2840"/>
@@ -1674,9 +1674,9 @@
           <string>Description</string>
           <string>24 Bits -&gt; 8Bit OP , 8BitA0, 8BitA1
 
-0 - 0
-3 - Reg0 = Reg0 + Reg1
-8 - JumpTo  Reg1 (global)
+00 - 0
+03 - Reg0 = Reg0 + Reg1
+08 - JumpTo  Reg1 (global)
 10 - JumpTo Reg1 if Reg0 is Pos</string>
         </entry>
       </elementAttributes>
