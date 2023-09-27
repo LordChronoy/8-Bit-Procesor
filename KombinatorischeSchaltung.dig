@@ -759,7 +759,7 @@
         </entry>
         <entry>
           <string>Label</string>
-          <string>MDR_outA0</string>
+          <string>MDR_outA1</string>
         </entry>
       </elementAttributes>
       <pos x="840" y="1280"/>
@@ -778,7 +778,7 @@
         </entry>
         <entry>
           <string>Label</string>
-          <string>MDR_outA1</string>
+          <string>MDR_outA0</string>
         </entry>
       </elementAttributes>
       <pos x="740" y="1280"/>
