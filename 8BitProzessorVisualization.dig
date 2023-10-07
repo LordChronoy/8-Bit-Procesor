@@ -1129,7 +1129,7 @@ Reg means the Value of the Address (Indirect)
 
 00 - 0
 03 - ADD Reg0 on Reg1
-08 - JumpTo  Reg0 (global)
+08 - JumpTo  Reg0 
 10 - JumpTo Reg0 if Reg1 is Pos</string>
         </entry>
       </elementAttributes>
@@ -1720,12 +1720,12 @@ Reg means the Value of the Address (Indirect)
       <elementName>Rectangle</elementName>
       <elementAttributes>
         <entry>
-          <string>Label</string>
-          <string>Stats</string>
-        </entry>
-        <entry>
           <string>RectHeight</string>
           <int>55</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>Stats</string>
         </entry>
         <entry>
           <string>RectWidth</string>
@@ -1738,12 +1738,12 @@ Reg means the Value of the Address (Indirect)
       <elementName>Rectangle</elementName>
       <elementAttributes>
         <entry>
-          <string>Label</string>
-          <string>RamConnection</string>
-        </entry>
-        <entry>
           <string>RectHeight</string>
           <int>40</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>RamConnection</string>
         </entry>
         <entry>
           <string>RectWidth</string>
@@ -1756,12 +1756,12 @@ Reg means the Value of the Address (Indirect)
       <elementName>Rectangle</elementName>
       <elementAttributes>
         <entry>
-          <string>Label</string>
-          <string>Clock</string>
-        </entry>
-        <entry>
           <string>RectHeight</string>
           <int>26</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>Clock</string>
         </entry>
         <entry>
           <string>RectWidth</string>

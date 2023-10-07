@@ -31,12 +31,12 @@
       <elementName>Splitter</elementName>
       <elementAttributes>
         <entry>
-          <string>Input Splitting</string>
-          <string>24</string>
-        </entry>
-        <entry>
           <string>splitterSpreading</string>
           <int>3</int>
+        </entry>
+        <entry>
+          <string>Input Splitting</string>
+          <string>24</string>
         </entry>
         <entry>
           <string>Output Splitting</string>
@@ -45,43 +45,11 @@
       </elementAttributes>
       <pos x="640" y="400"/>
     </visualElement>
-    <visualElement>
-      <elementName>Splitter</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Input Splitting</string>
-          <string>23,1</string>
-        </entry>
-        <entry>
-          <string>Output Splitting</string>
-          <string>24</string>
-        </entry>
-      </elementAttributes>
-      <pos x="740" y="400"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Const</elementName>
-      <elementAttributes/>
-      <pos x="740" y="420"/>
-    </visualElement>
-    <visualElement>
-      <elementName>24BitEnd.dig</elementName>
-      <elementAttributes/>
-      <pos x="800" y="400"/>
-    </visualElement>
   </visualElements>
   <wires>
     <wire>
       <p1 x="600" y="400"/>
       <p2 x="640" y="400"/>
-    </wire>
-    <wire>
-      <p1 x="660" y="400"/>
-      <p2 x="740" y="400"/>
-    </wire>
-    <wire>
-      <p1 x="760" y="400"/>
-      <p2 x="800" y="400"/>
     </wire>
     <wire>
       <p1 x="660" y="460"/>

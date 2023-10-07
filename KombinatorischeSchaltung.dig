@@ -555,7 +555,7 @@
         </entry>
         <entry>
           <string>Description</string>
-          <string>3 ADD R2 = R2 + R1</string>
+          <string>3 ADD R1 = R1 + R0</string>
         </entry>
       </elementAttributes>
       <pos x="140" y="320"/>
@@ -995,7 +995,7 @@
         </entry>
         <entry>
           <string>Description</string>
-          <string>8 JumpTo R1</string>
+          <string>8 JumpTo R0</string>
         </entry>
       </elementAttributes>
       <pos x="140" y="620"/>
@@ -1069,7 +1069,7 @@
         </entry>
         <entry>
           <string>Description</string>
-          <string>10 JumpTo R1 if R0 is Pos</string>
+          <string>10 JumpTo R0 if R1 is Pos</string>
         </entry>
       </elementAttributes>
       <pos x="140" y="740"/>
